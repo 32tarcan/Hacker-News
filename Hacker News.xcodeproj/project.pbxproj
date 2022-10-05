@@ -16,6 +16,8 @@
 		AF919C6028E9A8A900FE36C8 /* Hacker_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF919C5F28E9A8A900FE36C8 /* Hacker_NewsUITestsLaunchTests.swift */; };
 		AF919C6E28E9B16F00FE36C8 /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF919C6D28E9B16F00FE36C8 /* Network Manager.swift */; };
 		AF919C7028E9B45400FE36C8 /* Post Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF919C6F28E9B45400FE36C8 /* Post Data.swift */; };
+		AFAFB5F828ED5FFE00A3F8E7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB5F728ED5FFE00A3F8E7 /* DetailView.swift */; };
+		AFAFB5FA28ED686000A3F8E7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFB5F928ED686000A3F8E7 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		AF919C5F28E9A8A900FE36C8 /* Hacker_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AF919C6D28E9B16F00FE36C8 /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
 		AF919C6F28E9B45400FE36C8 /* Post Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post Data.swift"; sourceTree = "<group>"; };
+		AFAFB5F728ED5FFE00A3F8E7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AFAFB5F928ED686000A3F8E7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				AF919C4228E9A8A800FE36C8 /* Hacker_NewsApp.swift */,
-				AF919C4428E9A8A800FE36C8 /* ContentView.swift */,
+				AFAFB5F628ED5FBA00A3F8E7 /* View */,
 				AF919C6C28E9B14100FE36C8 /* Models */,
 				AF919C4628E9A8A800FE36C8 /* Assets.xcassets */,
 				AF919C4828E9A8A800FE36C8 /* Preview Content */,
@@ -139,6 +143,16 @@
 				AF919C6F28E9B45400FE36C8 /* Post Data.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AFAFB5F628ED5FBA00A3F8E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF919C4428E9A8A800FE36C8 /* ContentView.swift */,
+				AFAFB5F728ED5FFE00A3F8E7 /* DetailView.swift */,
+				AFAFB5F928ED686000A3F8E7 /* WebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +288,8 @@
 				AF919C4528E9A8A800FE36C8 /* ContentView.swift in Sources */,
 				AF919C4328E9A8A800FE36C8 /* Hacker_NewsApp.swift in Sources */,
 				AF919C7028E9B45400FE36C8 /* Post Data.swift in Sources */,
+				AFAFB5FA28ED686000A3F8E7 /* WebView.swift in Sources */,
+				AFAFB5F828ED5FFE00A3F8E7 /* DetailView.swift in Sources */,
 				AF919C6E28E9B16F00FE36C8 /* Network Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
