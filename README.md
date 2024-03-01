@@ -16,7 +16,7 @@
 
 - QuestionDetail: A view for displaying additional information about a specific question. It displays the question's description, sample input and output, and other details.
 
-- HackerRankAPI: A class for calling the HackerRank API. It is used by the QuestionList view.
+- HackerRankAPI: A class for calling the HackerRank API. It is used by the QuestionList view
 
 
 ![HaclkerNews](https://user-images.githubusercontent.com/101280910/222900823-bbec042c-c2cf-4622-a17e-3f6af70229a3.gif)
